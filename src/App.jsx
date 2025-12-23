@@ -482,35 +482,38 @@ export default function GamingPortfolio() {
                       👋 Welcome to my portfolio
                     </span>
                   </div>
-                  
-                  <h1 className="text-4xl sm:text-5xl lg:text-7xl font-black leading-tight">
-                    <span className="bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
-                      Bridging Finance
-                    </span>
-                    <br />
-                    <span className="bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-                      & Technology
-                    </span>
-                  </h1>
-                  
-                  <p className="text-base sm:text-xl text-gray-400 leading-relaxed max-w-xl mx-auto lg:mx-0">
-                    Saya adalah mahasiswa di bidang <span className="text-purple-400 font-semibold">Software Engineer</span> dan <span className="text-base sm:text-xl text-gray-400 leading-relaxed max-w-xl mx-auto lg:mx-0">Bekerja di Perusahaan yang bergerak pada bidang</span> <span className="text-cyan-400 font-semibold">Finance</span> perusahaan Jasa keuangan dan audit. Saya bertugas mengotomatisasi proses Kerja dan membuat solusi inovatif.
-                  </p>
-                  
-                  <div className="flex flex-col sm:flex-row flex-wrap gap-4 justify-center lg:justify-start">
-                    <a 
-                      href="mailto:rafaelsiregar.jobs@gmail.com" 
-                      className="group flex items-center justify-center gap-3 px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-cyan-500 to-purple-500 rounded-xl font-semibold hover:scale-105 transition-transform duration-300 shadow-lg shadow-cyan-500/25"
-                    >
-                      <Mail className="w-5 h-5" />
-                      <span className="text-sm sm:text-base">Get In Touch</span>
-                    </a>
-                    
-                    <button className="flex items-center justify-center gap-3 px-6 sm:px-8 py-3 sm:py-4 bg-white/5 border border-white/10 rounded-xl font-semibold hover:bg-white/10 transition-all duration-300">
-                      <Download className="w-5 h-5" />
-                      <span className="text-sm sm:text-base">Download CV</span>
-                    </button>
-                  </div>
+         <h1 className="text-4xl sm:text-5xl lg:text-7xl font-black leading-tight">
+  <span className="bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
+    Bridging Finance
+  </span>
+  <br />
+  <span className="bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
+    & Technology
+  </span>
+</h1>
+
+<p className="text-base sm:text-xl text-gray-400 leading-relaxed max-w-xl mx-auto lg:mx-0">
+  Saya adalah mahasiswa di bidang <span className="text-purple-400 font-semibold">Software Engineer</span> dan bekerja di perusahaan yang bergerak pada bidang <span className="text-cyan-400 font-semibold">Finance</span>, perusahaan jasa keuangan dan audit. Saya bertugas mengotomatisasi proses kerja dan membuat solusi inovatif.
+</p>
+
+<div className="flex flex-col sm:flex-row flex-wrap gap-4 justify-center lg:justify-start">
+  <a 
+    href="mailto:rafaelsiregar.jobs@gmail.com" 
+    className="group flex items-center justify-center gap-3 px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-cyan-500 to-purple-500 rounded-xl font-semibold hover:scale-105 transition-transform duration-300 shadow-lg shadow-cyan-500/25"
+  >
+    <Mail className="w-5 h-5" />
+    <span className="text-sm sm:text-base">Get In Touch</span>
+  </a>
+  
+  <a 
+    href="/assets/CV RAFAEL SIREGAR.pdf" 
+    download="CV RAFAEL SIREGAR.pdf"
+    className="flex items-center justify-center gap-3 px-6 sm:px-8 py-3 sm:py-4 bg-white/5 border border-white/10 rounded-xl font-semibold hover:bg-white/10 transition-all duration-300"
+  >
+    <Download className="w-5 h-5" />
+    <span className="text-sm sm:text-base">Download CV</span>
+  </a>
+</div>
 
                   {/* Social Links */}
                   <div className="flex gap-4 pt-4 justify-center lg:justify-start">
